@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Docker / Local Data
+postgres_data/
+postgres_data_dev/
+logs/
+coverage/
+htmlcov/
+
+# Logs
+*.log
+
+# IDE / System
+.idea/
+.vscode/
+.DS_Store
