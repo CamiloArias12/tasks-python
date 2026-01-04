@@ -130,8 +130,8 @@ If you prefer to run the app locally while keeping the DB in Docker:
 ## Initial User
 The initial user is created automatically via Alembic migration (`220c960a97d9_seed_initial_user.py`).
 
-- **Email**: `admin@example.com`
-- **Password**: `changeme`
+- **Email**: `test@gmail.com`
+- **Password**: `test1234`
 
 ## API Usage (cURL Examples)
 
