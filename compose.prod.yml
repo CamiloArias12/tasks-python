@@ -32,3 +32,6 @@ services:
 
 volumes:
   postgres_data:
+networks:
+  tasks-ai:
+    driver: bridge
