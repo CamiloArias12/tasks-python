@@ -91,6 +91,7 @@ The easiest way to run the application is with Docker Compose. This runs both th
 
 1. **Build and Start**
    ```bash
+   cp .env.example .env
    docker compose -f compose.dev.yml up --build
    ```
    *The application will automatically run migrations and seed the initial user.*
@@ -105,6 +106,7 @@ If you prefer to run the app locally while keeping the DB in Docker:
 
 1. **Start Database**
    ```bash
+   cp .env.example .env
    docker-compose -f compose.dev.yml up -d db
    ```
 
