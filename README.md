@@ -91,7 +91,7 @@ The easiest way to run the application is with Docker Compose. This runs both th
 
 1. **Build and Start**
    ```bash
-   docker-compose -f compose.dev.yml up --build
+   docker compose -f compose.dev.yml up --build
    ```
    *The application will automatically run migrations and seed the initial user.*
 
